@@ -1,0 +1,7 @@
+.menu__items__container {
+    @apply flex gap-x-[25px]
+}
+
+.menu__item {
+    @apply text-[#444445] font-bold text-[18px] hover:text-primary ease-in duration-100
+}
