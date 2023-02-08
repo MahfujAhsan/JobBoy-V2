@@ -1,3 +1,9 @@
+/* Common CSS */
+.common__flex {
+    @apply flex justify-center items-center
+}
+
+/* Navbar CSS */
 .menu__items__container {
     @apply flex gap-x-[25px]
 }
@@ -5,3 +11,17 @@
 .menu__item {
     @apply text-[#444445] font-bold text-[18px] hover:text-primary ease-in duration-100
 }
+
+/* Footer CSS */
+.footer__menu {
+    @apply text-center text-[#444445] mt-[30px]
+}
+
+.footer__menu h3 {
+    @apply text-[20px] font-bold mb-[15px]
+}
+
+.footer__menu ul li {
+    @apply mt-[5px] text-[16px]
+}
+

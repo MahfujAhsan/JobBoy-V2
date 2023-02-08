@@ -13,7 +13,7 @@ module.exports = {
           success: "#6db784",
           warning: "#FFAB00",
           error: "#C53678",
-          "base-100": "#eddcd9",
+          "base-100": "#fff",
         },
       },
     ],
