@@ -5,12 +5,26 @@
 
 /* Navbar CSS */
 .menu__items__container {
-    @apply flex gap-x-[25px]
+    @apply flex items-center gap-x-[25px]
 }
 
 .menu__item {
-    @apply text-[#444445] font-bold text-[18px] hover:text-primary ease-in duration-100
+    @apply text-[#444445] font-bold text-[16px] hover:text-primary ease-in duration-100
 }
+
+/* Form Input CSS */
+.label span {
+    @apply font-semibold text-[#9a9a9a] text-[18px] my-[0.3rem]
+}
+
+.form__input input {
+    @apply input input-bordered w-full
+}
+
+/* Banner CSS */
+    .banner__btn  {
+        @apply flex items-center gap-[15px] py-[12px] px-[26px] font-semibold text-[1.45rem] text-[#fff] hover:text-[#000] duration-300 ease-in-out rounded-[7px]
+    }
 
 /* Footer CSS */
 .footer__menu {
@@ -18,7 +32,7 @@
 }
 
 .footer__menu h3 {
-    @apply text-[20px] font-bold mb-[15px]
+    @apply text-[20px] font-semibold mb-[15px]
 }
 
 .footer__menu ul li {

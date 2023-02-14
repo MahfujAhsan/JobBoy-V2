@@ -71,8 +71,8 @@ const footerMenuFour = (
 const Footer = () => {
   return (
     <footer>
-      <div className="common__flex flex-col gap-y-[20px] my-[50px]">
-        <img src={BrandLogo} alt="" />
+      <div className="common__flex flex-col gap-y-[20px] my-[20px] lg:my-[50px]">
+        <img src={BrandLogo} alt="BrandLogo" />
         <div className="common__flex gap-x-[20px]">
           <FaTelegram size={26} fill={"#CCCCCC"} color={"#fff"} />
           <FaTwitter size={26} fill={"#CCCCCC"} color={"#fff"} />
@@ -80,7 +80,7 @@ const Footer = () => {
           <FaInstagram size={26} fill={"#CCCCCC"} color={"#fff"} />
         </div>
       </div>
-      <div className="flex justify-around items-center">
+      <div className="grid grid-cols-2 place-items-center lg:flex justify-around items-center">
         <div className="footer__menu">
           <h3>Company</h3>
           <ul>{footerMenuOne}</ul>
